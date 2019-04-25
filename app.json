@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Orientation Issue",
-    "slug": "OrientationIssue",
+    "name": "Orientation Example",
+    "slug": "OrientationExample",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -14,7 +14,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
