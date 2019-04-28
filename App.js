@@ -8,7 +8,7 @@ class App extends PureComponent {
     orientation: ScreenOrientation.Orientation.LANDSCAPE
   };
 
-  layoutHandler = ({ screen: { width, height } }) => {
+  layoutHandler = ({ window: { width, height } }) => {
     let orientation;
     if (width > height) {
       orientation = ScreenOrientation.Orientation.LANDSCAPE;
