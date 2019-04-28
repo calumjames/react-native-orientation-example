@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Orientation Example",
-    "slug": "OrientationExample",
+    "name": "Orientation Changer",
+    "slug": "orientation-changer",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -9,7 +9,7 @@
       "android"
     ],
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
