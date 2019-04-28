@@ -15,7 +15,7 @@ class App extends PureComponent {
     } else {
       orientation = ScreenOrientation.Orientation.PORTRAIT;
     }
-    ScreenOrientation.allowAsync(orientation);
+
     this.setState({ orientation });
   };
 
@@ -27,7 +27,11 @@ class App extends PureComponent {
   }
 
   render = () => {
+    ScreenOrientation.allowAsync(ScreenOrientation.Orientation.ALL);
+    
     const { orientation, loadingIsComplete } = this.state;
+
+    console.log(orientation);
 
     return (
       <View style={styles.container}>
