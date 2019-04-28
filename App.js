@@ -8,7 +8,7 @@ class App extends PureComponent {
     orientation: ScreenOrientation.Orientation.LANDSCAPE
   };
 
-  layoutHandler = ({ window: { width, height } }) => {
+  layoutHandler = ({ screen: { width, height } }) => {
     let orientation;
     if (width > height) {
       orientation = ScreenOrientation.Orientation.LANDSCAPE;
@@ -28,6 +28,8 @@ class App extends PureComponent {
 
   render = () => {
     const { orientation, loadingIsComplete } = this.state;
+
+    console.log(orientation)
 
     return (
       <View style={styles.container}>
