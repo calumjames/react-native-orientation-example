@@ -29,8 +29,6 @@ class App extends PureComponent {
   render = () => {
     const { orientation, loadingIsComplete } = this.state;
 
-    console.log(orientation)
-
     return (
       <View style={styles.container}>
         <Text style={styles.text}>{orientation}</Text>
